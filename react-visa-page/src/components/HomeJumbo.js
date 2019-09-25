@@ -6,9 +6,9 @@ import HomeAcercaCard from './HomeAcercaCard';
 
 const Example = (props) => {
   return (
-    <div>
+    <div className="colorPearlAqua">
       <HomeImage />
-      <Jumbotron>
+      <Jumbotron className="colorDarkGrey">
         <h1 className="display-3">Home Welcome</h1>
         <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr className="my-2" />

@@ -17,15 +17,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <BrowserRouter>
           <Route path='/visas' component={VisasJumbo} />
           <Route path='/Negocios' component={OportunityJumbo} />
           {/* <Route path= '/Cards' component={Cards} /> */}
           <Route path='/HomeImage' component={HomeImage} />
           <Route path='/Home' component={HomeJumbo} />
-          <Route path='/NegociosUsa' component={InversionJumbo} />
-          <Route path='/Inversion' component={UsaJumbo} />
+          <Route path='/NegociosUsa' component={UsaJumbo} />
+          <Route path='/Inversion' component={InversionJumbo} />
 
 
         </BrowserRouter>

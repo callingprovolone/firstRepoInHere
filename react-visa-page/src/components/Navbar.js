@@ -30,7 +30,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="white" light expand="md">
+        <Navbar className="colorBrown" dark expand="md">
           <NavbarBrand href="/">reactstrap</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -42,11 +42,11 @@ export default class Example extends React.Component {
                 <NavLink href="/visas">Visas</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Negocios">Oportunity</NavLink>
+                <NavLink href="/Negocios">Negocios</NavLink>
               </NavItem>
-              <NavLink href="/NegociosUsa">Home</NavLink>
+              <NavLink href="/NegociosUsa">NegociosUsa</NavLink>
               <NavItem>
-                <NavLink href="/Inversion">Oportunity</NavLink>
+                <NavLink href="/Inversion">Inversion</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

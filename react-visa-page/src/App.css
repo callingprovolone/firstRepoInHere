@@ -5,7 +5,9 @@
 .App-logo {
   height: 40vmin;
 }
-
+body{
+  font-family: 'Roboto Slab', serif;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -16,12 +18,49 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.whiteText{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
-.cardRounded{
-  border-radius: 20px;
+
+}
+
+.colorBrown{
+  background-color:#c7ac92 !important;
+}
+.colorDarkGreen{
+background-color: #c2eabd !important;
+}
+
+.row a {
+  display: block;
+  color:rgb(71, 0, 0) !important;
+}
+
+.colorLightGreen{
+background-color: #dcf2b0 !important;
+}
+.colorPurpleGrey{
+background-color: #c0babc !important;
+}
+.colorVividTangerine{
+background-color: #EA9E8D !important;
+}
+.colorPearlAqua{
+  background-color: #81D2C7 !important;
+  }
+.colorPlatinum{
+  background-color: #E0E0E2 !important;
 }
 .App-link {
   color: #09d3ac;
+}
+
+.marginCards{
+  margin-top:4vh;
+  padding-right:0px !important;
+  padding-left: 0.5em !important;
+
 }
 
 .background-solid{
@@ -34,13 +73,12 @@
 }
   
 .card-img-caption .card-img-top {
+  padding-left:.5em;
   z-index: 0;
 }
     
 .card-img-caption .card-text {
   text-align: center;
-  width: 100%;
-  margin: 25% 0;
   position: absolute;
   z-index: 1;
 }
@@ -51,4 +89,97 @@
   margin: 44% 0;
   position: absolute;
   z-index: 1;
+}
+
+.card-body{
+  padding: 0.7rem !important;
+}
+
+footer{
+  padding-top:1em;
+}
+
+@media only screen and (max-width: 454px) {
+
+  .cardTitle { 
+     font-size: 1em !important; 
+  }
+
+  .card-img-caption .card-text {
+    margin: 15% 0 20% 5%;
+  }
+
+  .smallFontSize{
+    font-size:1em !important;
+  }
+
+  .display-3{
+    font-size:1em !important;
+
+  }
+}
+
+@media only screen and (max-width: 574px) and (min-width:455px){
+
+  .cardTitle { 
+     font-size: 3em !important; 
+  }
+
+  .card-img-caption .card-text {
+    margin: 15% 0 20% 5%;
+  }
+
+  .display-3{
+    font-size:2.5em !important;
+
+  }
+}
+@media only screen and (max-width: 850px) and (min-width: 575px) {
+  .cardTitle { 
+    font-size: 1.5em !important; 
+ }
+
+  .card-img-caption .card-text {
+    margin: 15% 0 10% 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 850px) {
+
+  .cardTitle { 
+    font-size: 1.4em !important; 
+  }
+  .card-img-caption .card-text {
+    margin-top:1em;
+    padding-left:0;
+    margin: 20% 0 10% 5%;
+  }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+
+  .cardTitle { 
+     font-size: 1.8em !important; 
+  }
+  .card-img-caption .card-text {
+    padding-left:0;
+    margin-top:1em;
+    margin: 20% 0 10% 4%;
+
+  }
+
+}
+@media only screen and (min-width: 1000px) {
+
+  .cardTitle { 
+     font-size: 2.1em !important; 
+  }
+  .card-img-caption .card-text {
+    margin: 0;
+    padding-left:0;
+    margin-top:1em;
+    margin: 27% 0 10% 4%;
+  }
+
 }
