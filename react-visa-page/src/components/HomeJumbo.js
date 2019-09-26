@@ -1,28 +1,37 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron, Button, CardImg, Card } from 'reactstrap';
 import HomeImage from './HomeImage';
-import HomeReading from './HomeReading';
 import HomeAcercaCard from './HomeAcercaCard';
+import Logo from './Logo.png';
 
 const Example = (props) => {
   return (
     <div className="colorPearlAqua">
       <HomeImage />
-      <Jumbotron className="colorDarkGrey">
-        <h1 className="display-3">Home Welcome</h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr className="my-2" />
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p className="lead">
-          <Button color="primary" className="margin-button"> Learn More</Button>
-          <Button color="success" className="margin-button"> Learn More</Button>
-          <Button color="warning" className="margin-button"> Learn More</Button>
+      <div className="row">
+        <div className="col-md-7">
+          <Jumbotron className="colorDarkGrey">
+            <h1 className="display-3">Acerca de nosotros</h1>
+            <h4 className="lead">Somos un grupo de consultores y abogados, especializados en negocios e inmigracion a USA.</h4>
+            <hr className="my-2" />
+            <h5>Queremos conectar a argentinos con oportunidades de desarrollo y crecimiento en Estados Unidos.</h5>
+            <a href="https://mailchi.mp/b4469d734bb7/vivirytrabajarenusaexitoyemprendimiento">
+              <p className="lead">
+                Si podemos ayudarte, habla con nosotros:
+               </p>
+              <Button color="success">Ponerse en contacto con nosotros</Button>
+            </a>
+          </Jumbotron>
 
-        </p>
-      </Jumbotron>
+        </div>
+        <div className="col-md-5">
+          <Card className="colorVividTangerine">
+          <CardImg src={Logo} alt="Card image cap" />
+</Card>
+        </div>
+      </div>
       <HomeAcercaCard />
-      <HomeReading />
-    </div>
+    </div >
   );
 };
 

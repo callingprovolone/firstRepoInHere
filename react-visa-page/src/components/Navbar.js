@@ -6,12 +6,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from 'reactstrap';
+
+let Logo = require("./Logo.png");
+
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -31,15 +30,15 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar className="colorBrown" dark expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarBrand href="/home"><img className="img-responsive"src={Logo}></img></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/home">Home</NavLink>
+                <NavLink href="/Home">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/visas">Visas</NavLink>
+                <NavLink href="/Visas">Visas</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/Negocios">Negocios</NavLink>
@@ -48,23 +47,6 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="/Inversion">Inversion</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Navbar>

@@ -36,7 +36,16 @@ background-color: #c2eabd !important;
   display: block;
   color:rgb(71, 0, 0) !important;
 }
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
 
+.colorDarkBlue{
+  background-color: #19647E !important;
+}
 .colorLightGreen{
 background-color: #dcf2b0 !important;
 }
@@ -51,6 +60,13 @@ background-color: #EA9E8D !important;
   }
 .colorPlatinum{
   background-color: #E0E0E2 !important;
+}
+
+.colorSerpentGreen{
+background-color: #8CBA80 !important;
+}
+.colorDarkCyan{
+background-color: #658E9C !important;
 }
 .App-link {
   color: #09d3ac;

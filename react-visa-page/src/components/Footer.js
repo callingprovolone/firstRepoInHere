@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, NavbarBrand, NavLink, NavItem } from 'reactstrap';
+import { Nav, Navbar, NavLink, NavItem } from 'reactstrap';
 
 export default class Footer extends React.Component {
   render() {
