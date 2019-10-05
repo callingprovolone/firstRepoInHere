@@ -9,13 +9,14 @@ let tieWork = require("./tieWork.jpg");
 const Example = (props) => {
     return (
         <div>
-            <div className="row">
-                <div className="col-5">
+            <div className="row paddingButtom">
+            <div className="col-md-6 col-sm-10">
 
                     <Card>
                         <CardBody>
-                            <h4>Oportunidad de abrir un negocio</h4>
-                            <CardText>Existen maneras de vivir y trabajar en Estados Unidos al abrir tu propio negocio en el pais.<br />Ademas de haber visas para emprendedores, las hay para profesionales y personas de educacion o experiencia notables.<br /></CardText>
+                            <h4>Para empresarios:</h4>
+                            <CardText>Si tienes una capacidad de inversión entre 100,000 y 250,000 dólares, pero no sabes todavía en qué tipo de negocio invertir, déjanos presentarte las opciones que tenemos. Han ayudado a otros como tu a empezar una nueva vida en USA. No es cierto que para conseguir vivir y trabajar en USA haya que hacer grandes inversiones inmobiliarias o en negocios. Las opciones son diversas. Lo mejor es dejarse asesorar por quienes saben y no equivocarse en esta importante decisión. Lo que a otros ha funcionado puede que no funcione para vos. Estamos para ayudart.<br /></CardText>
+
                             <a href="https://mailchi.mp/b4469d734bb7/vivirytrabajarenusaexitoyemprendimiento">
                             <h5>Para consultar cuales son tus posibilidades, contactanos y te informaremos:</h5>
                             </a>
@@ -26,7 +27,7 @@ const Example = (props) => {
                     </Card>
                 </div>
 
-                <div className="col-5">
+                <div className="col-md-5 col-sm-7">
 
                     <Card>
                         <CardImg top width="100%" src={tieWork} alt="Card image cap" />

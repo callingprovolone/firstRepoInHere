@@ -11,15 +11,15 @@ class VisasJumbo extends React.Component {
         <Navbar />
         <div className="colorDarkGreen">
           <div className="jumbotron colorLightGreen">
-            <h1>Quieres ayuda con tu visa?</h1>
+            <h1>¿Estás pensando en emprender una nueva vida en USA?</h1>
             <br />
-            <h5>Conseguir una visa de trabajo en Estados Unidos es complicado.</h5>
+            <h5>En el último año el número de argentinos que quieren mudarse para los Estados Unidos ha aumentado drásticamente.</h5>
             <hr className="my-2" />
-            <h3>Podemos ponerte en contacto con un bufete de abogados que ya ha ayudado a ciudadanos argentinos a emprender y trabajar en USA.</h3>
+            <h3>Te ofrecemos asesoramiento legal gratuito con la firma de abogados premiada como la mejor en Inmigración..</h3>
             <a href="https://mailchi.mp/b4469d734bb7/vivirytrabajarenusaexitoyemprendimiento">
 
-              <p className="lead">Haz click aqui para descubrir si puedes aplicar para una visa</p>
-              <Button className="colorDarkBlue">Conseguir ayuda ahora</Button>
+              <p className="lead">Haz click aquí para descubrir si eres un candidato para vivir y trabajar en USA</p>
+              <Button className="colorDarkBlue">Pide una cita gratuita</Button>
             </a>
           </div>
           <VisasImage />

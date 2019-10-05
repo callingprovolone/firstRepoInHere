@@ -29,21 +29,21 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="colorBrown" dark expand="md">
+        <Navbar className="colorDarkBlue" dark expand="md">
           <NavbarBrand href="/home"><img className="img-responsive"src={Logo}></img></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Home">Home</NavLink>
+                <NavLink href="/Home">Inicio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Visas">Visas</NavLink>
+                <NavLink href="/Visas">Vivir y trabajar</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Negocios">Negocios</NavLink>
+                <NavLink href="/Negocios">Oportunidad</NavLink>
               </NavItem>
-              <NavLink href="/NegociosUsa">NegociosUsa</NavLink>
+              <NavLink href="/NegociosUsa">Tu negocio a USA</NavLink>
               <NavItem>
                 <NavLink href="/Inversion">Inversion</NavLink>
               </NavItem>

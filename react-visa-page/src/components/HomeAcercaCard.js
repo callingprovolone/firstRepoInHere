@@ -11,7 +11,7 @@ let bbGlobal = require("./bbGlobal.PNG")
 const Example = (props) => {
     return (
         <div>
-            <div className="row">
+            <div className="row paddingButtom">
                 <div className="col-md-5 col-sm-10">
 
                     <a href="https://bbglobalsolutions.com">

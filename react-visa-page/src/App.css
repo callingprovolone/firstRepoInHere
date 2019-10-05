@@ -21,10 +21,11 @@ body{
 .whiteText{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-
 }
 
+.paddingButtom{
+  padding-bottom:20vh;
+}
 .colorBrown{
   background-color:#c7ac92 !important;
 }
@@ -46,11 +47,17 @@ background-color: #c2eabd !important;
 .colorDarkBlue{
   background-color: #19647E !important;
 }
+.colorTextOrange{
+  color:rgb(255, 203, 30);
+}
+.colorTextOrange a{
+  color:#09d3ac !important;
+}
 .colorLightGreen{
 background-color: #dcf2b0 !important;
 }
 .colorPurpleGrey{
-background-color: #c0babc !important;
+background-color: hsl(340, 5%, 74%) !important;
 }
 .colorVividTangerine{
 background-color: #EA9E8D !important;
@@ -114,11 +121,14 @@ background-color: #658E9C !important;
 footer{
   padding-top:1em;
 }
+.modalWidth{
+margin-top:10vh;
+}
 
 @media only screen and (max-width: 454px) {
 
   .cardTitle { 
-     font-size: 1em !important; 
+     font-size: 2em !important; 
   }
 
   .card-img-caption .card-text {
@@ -130,7 +140,7 @@ footer{
   }
 
   .display-3{
-    font-size:1em !important;
+    font-size:2em !important;
 
   }
 }
